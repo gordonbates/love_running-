@@ -93,11 +93,11 @@ h2 {
 /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
-    from {
+    from{
         transform: scale(1);
     }
 
-    to {
+    to{
         transform: scale(1.1);
     }
 }
@@ -148,7 +148,7 @@ h2 {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -221,4 +221,23 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
